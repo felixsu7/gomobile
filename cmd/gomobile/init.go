@@ -79,11 +79,6 @@ func runInit(cmd *command) error {
 		removeAll(tmpdir)
 	}()
 
-	// Make sure gobind is up to date.
-	if err := goInstall([]string{"github.com/ebitengine/gomobile/cmd/gobind@latest"}, nil); err != nil {
-		return err
-	}
-
 	if buildN {
 		initOpenAL = "$OPENAL_PATH"
 	} else {
