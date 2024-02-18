@@ -82,7 +82,7 @@ func genPkg(lang string, p *types.Package, astFiles []*ast.File, allPkg []*types
 		if p == nil {
 			dir, err := packageDir("github.com/ebitengine/gomobile/bind")
 			if err != nil {
-				errorf(`"github.com/ebitengine/gomobile/bind" is not found; run go get golang.org/x/mobile/bind: %v`, err)
+				errorf(`"github.com/ebitengine/gomobile/bind" is not found; run go get github.com/ebitengine/gomobile/bind: %v`, err)
 				return
 			}
 			repo := filepath.Clean(filepath.Join(dir, "..")) // github.com/ebitengine/gomobile directory.

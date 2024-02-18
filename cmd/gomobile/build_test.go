@@ -182,12 +182,12 @@ func TestRegexImportGolangXPackage(t *testing.T) {
 		want    string
 		wantLen int
 	}{
-		{"ffffffff t github.com/ebitengine/gomobile", "golang.org/x/mobile", 2},
-		{"ffffffff t github.com/example/repo/vendor/github.com/ebitengine/gomobile", "golang.org/x/mobile", 2},
+		{"ffffffff t github.com/ebitengine/gomobile", "github.com/ebitengine/gomobile", 2},
+		{"ffffffff t github.com/example/repo/vendor/github.com/ebitengine/gomobile", "github.com/ebitengine/gomobile", 2},
 		{"ffffffff t github.com/example/github.com/ebitengine/gomobile", "", 0},
 		{"ffffffff t github.com/example/repo", "", 0},
 		{"ffffffff t github.com/example/repo/vendor", "", 0},
-		{"ffffffff t _github.com/ebitengine/gomobile/app", "golang.org/x/mobile/app", 2},
+		{"ffffffff t _github.com/ebitengine/gomobile/app", "github.com/ebitengine/gomobile", 2},
 	}
 
 	for _, tc := range tests {
