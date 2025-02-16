@@ -7,18 +7,18 @@
 // It is intended to serve as a reference implementation for testing
 // other sprite Engines written against OpenGL, or other more exotic
 // modern hardware interfaces.
-package portable // import "github.com/ebitengine/gomobile/exp/sprite/portable"
+package portable
 
 import (
 	"image"
 	"image/draw"
 
-	xdraw "golang.org/x/image/draw"
-	"golang.org/x/image/math/f64"
 	"github.com/ebitengine/gomobile/event/size"
 	"github.com/ebitengine/gomobile/exp/f32"
 	"github.com/ebitengine/gomobile/exp/sprite"
 	"github.com/ebitengine/gomobile/exp/sprite/clock"
+	xdraw "golang.org/x/image/draw"
+	"golang.org/x/image/math/f64"
 )
 
 // Engine builds a sprite Engine that renders onto dst.

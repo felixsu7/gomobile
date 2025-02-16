@@ -8,7 +8,7 @@
 //
 // Each sprite.Texture is loaded as a GL texture object and drawn
 // to the screen via an affine transform done in a simple shader.
-package glsprite // import "github.com/ebitengine/gomobile/exp/sprite/glsprite"
+package glsprite
 
 import (
 	"image"

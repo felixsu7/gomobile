@@ -5,7 +5,7 @@
 // Package mouse defines an event for mouse input.
 //
 // See the github.com/ebitengine/gomobile/app package for details on the event model.
-package mouse // import "github.com/ebitengine/gomobile/event/mouse"
+package mouse
 
 import (
 	"fmt"

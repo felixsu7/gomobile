@@ -249,4 +249,4 @@ Examples can be found in http://github.com/ebitengine/gomobile/example.
 
 Design doc: http://golang.org/s/gobind
 */
-package main // import "github.com/ebitengine/gomobile/cmd/gobind"
+package main

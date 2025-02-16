@@ -167,4 +167,4 @@ Usage:
 
 Version prints versions of the gomobile binary and tools
 */
-package main // import "github.com/ebitengine/gomobile/cmd/gomobile"
+package main

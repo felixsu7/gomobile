@@ -4,7 +4,7 @@
 
 //go:build darwin || linux || windows
 
-package glutil // import "github.com/ebitengine/gomobile/exp/gl/glutil"
+package glutil
 
 import (
 	"fmt"
