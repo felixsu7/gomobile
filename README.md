@@ -1,4 +1,4 @@
-This fork just removes couple of lines which makes Ebitenmobile unable to compile Android builds on non-Darwin arm64 environments, especially prooted Debian on Termux which what i use, but this should work on other arm64 environments.
+This fork just removes couple of lines which makes Ebitenmobile able to compile Android builds on non-Darwin arm64 environments, especially prooted Debian on Termux which is what i use, but this should work on other arm64 environments.
 
 To be able to compile, set the `EBITENMOBILE_GOMOBILE` environment variable to your local copy of this repo. (Example: `EBITENMOBILE_GOMOBILE=/root/gomobile ebitenmobile`, when in a prooted environment)
 
